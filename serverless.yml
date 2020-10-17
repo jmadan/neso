@@ -1,4 +1,4 @@
-service: neso_auth_token_fetcher
+service: neso-auth-token-fetcher
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
