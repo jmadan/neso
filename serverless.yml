@@ -51,7 +51,7 @@ functions:
   getAuth0:
     handler: handler.index
     events:
-      - schedule: cron(30 00 ? * TUE-SAT *)
+      - schedule: cron(15 0 25 * ? *)
 
 plugins:
   - serverless-dotenv-plugin
